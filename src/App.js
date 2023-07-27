@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from './components/Home/Header';
+import Session1 from './components/Home/Session1';
+import Session2 from './components/Home/Session2';
+import Session3 from './components/Home/Session3';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="bg-gradient-to-b text-[#333333] from-[#E2EEFC] to-[rgba(255, 255, 255, 0.00)]">
+			<Header />
+			<Session1 />
+			<Session2 />
+			<Session3 />
+		</div>
+	);
 }
 
 export default App;
