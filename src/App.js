@@ -9,6 +9,16 @@ function App() {
 			<Session1 />
 			<Session2 />
 			<Session3 />
+			<div>
+				<img
+					src="/images/session4.png"
+					className="block w-full"
+					alt=""
+				/>
+			</div>
+			<div>
+				<img src="/images/footer.png" alt="" />
+			</div>
 		</div>
 	);
 }
