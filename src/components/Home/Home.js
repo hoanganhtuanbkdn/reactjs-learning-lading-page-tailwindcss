@@ -1,8 +1,8 @@
-import Header from './components/Home/Header';
-import Session1 from './components/Home/Session1';
-import Session2 from './components/Home/Session2';
-import Session3 from './components/Home/Session3';
-function App() {
+import Header from './Header';
+import Session1 from './Session1';
+import Session2 from './Session2';
+import Session3 from './Session3';
+function Home() {
 	return (
 		<div className="bg-gradient-to-b text-[#333333] from-[#E2EEFC] to-[rgba(255, 255, 255, 0.00)]">
 			<Header />
@@ -23,4 +23,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Home;
